@@ -11,8 +11,7 @@ class Datastore implements DatabaseManager {
 
 	public function __construct() {
 		//$db = new SQLite30('database.db');
-		$sql_user = "stash";
-		$sql_pass = "loplop34";
+		require_once "Settings.php";
 
 		$dsn = 'mysql:host=localhost;port=3306;dbname=thenews';
 
