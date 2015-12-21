@@ -1,4 +1,4 @@
 <?php
 
-$sql_user = "";
-$sql_pass = "";
+$sql_user = "stash";
+$sql_pass = "loplop34";
